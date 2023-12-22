@@ -1,0 +1,36 @@
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+  
+.gallery-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 25px !important;
+}
+#judulgal {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+  
